@@ -42,3 +42,10 @@ html {
   .grid {
     display: grid;
   }
+
+.display-title {
+    margin-top: .75rem;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+}
