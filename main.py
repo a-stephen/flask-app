@@ -15,7 +15,7 @@ def index():
     imgs = get_imagesnames(path)
     random_images = random.choice(imgs)
     img_path = path+random_images
-    return render_template("index.html", mg = img_path, title="cat||dog-web")
+    return render_template("index.html", mg = img_path, title="cat||dog-web", prediction="machine learning")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
