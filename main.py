@@ -11,9 +11,11 @@ def get_imagesnames(path):
 @app.route('/')
 
 def index():
-    imgs = get_imagesnames(path="./static/images")
+    path="./static/images/"
+    imgs = get_imagesnames(path)
     random_images = random.choice(imgs)
-    return render_template("index.html", mag = random_images, title="cat||dog web")
+    img_path = path+random_images
+    return render_template("index.html", mg = img_path, title="cat||dog-web")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")

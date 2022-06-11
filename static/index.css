@@ -48,15 +48,14 @@ picture {
   margin-top: 2rem;
   min-width: 5rem;
   min-height: 1rem;
-  margin-inline: auto;
-  background-color: whitesmoke;
+  justify-content: center;
 }
 
 .img-container {
-  max-width: 32rem;
-  margin: 9rem auto;
-  border: 1.25rem solid white;
-  padding: 0.75rem;
-  text-align: center;
-  background-color: blue;
+  max-width: 40rem;
+  min-height: 30rem;
+  margin: 5rem auto;
+  border: 1rem solid paleturquoise;
+  border-radius: .5rem;
+  padding: 0.1rem;
 }
