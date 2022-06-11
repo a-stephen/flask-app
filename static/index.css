@@ -60,10 +60,20 @@ picture {
   padding: 0.1rem;
 }
 
+.prediction-container{
+  /* background-color: blue; */
+  margin-bottom: 3rem;
+  min-width: 20rem;
+  min-height: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .attribution-container {
   min-width: 30rem;
   min-height: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   justify-content: center;
 }
-
